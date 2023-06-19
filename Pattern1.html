@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern1</title>
+</head>
+<body>
+    <form>
+        <input type="number" style="font-size:20px;"placeholder="AADHAR CARD" pattern="[0-9] {13}"title="Enter 13 Digits number">
+        <br><br>
+        <input type="number" style="font-size:20px;" placeholder="CVV" pattern="[0-9]{3}" title="Enter only Three numbers">
+        <br><br>
+        <input style="font-size:20px;" placeholder="Password" pattern="[A-Za-z]{5}[0-9]{3} [@!#$*]{1}"type="Password">
+        <br><br>
+        <input type="submit" value="Verify">
+    </form>
+</body>
+</html>

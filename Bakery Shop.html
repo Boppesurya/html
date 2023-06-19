@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+</head>
+<body>
+    <center>
+    <fieldset style="width:800px;height:800px;">
+        <legend style="font-size:40px; text-align: center;">Bakery Shope</legend>
+        <hr>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend style="font-size:20px;">Enter Name</legend>
+                            <input style="font-size:20px;width:300px;border:0px;outline:0px;" type="text" placeholder="Enter Name" required>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend style="font-size:20px;">Enter Mobaile</legend>
+                            <input style="font-size:20px;width:300px;border:0px;outline:0px;" type="number" placeholder="Enter Mobaile" pattern="[0-9]{10}" required>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend style="font-size:20px;">Enter Email-ID</legend>
+                            <input style="font-size:20px;width:300px;border:0px;outline:0px;" type="mail" placeholder="Enter Email"required>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="OTP" style="font-size:30px;width: 100px;"></td>
+                    <td><input type="submit" value="Verify" style="font-size:30px;width:100px;"></td>
+                </tr>
+                      <tr>
+                        <td colspan="2">
+                            <fieldset>
+                                <legend style="font-size:20px;">Select Flaver & Weight of Cake</legend>
+                            <select required style="font-size: 20px;width:250px;">
+                                <option value="">Flaver</option>
+                                <option value="a">Apple Cake</option>
+                                <option value="b">Red Velvet cake</option>
+                                <option value="c">Black Forest cake</option>
+                                <option value="d">Chocolate Cake</option>
+                                <option value="e">Vanilla Cake</option>
+                                <option value="f">Pineapple cake</option>
+                                <option value="g">Coffee Cake</option>
+                                <option value="h">Cheese Cake</option>
+                                <option value="i">Cup Cake</option>
+                            </select>
+                            <select required style="font-size:20px;width:250px;">
+                                <option value="">Weight</option>
+                                <option value="a">250 gm</option>
+                                <option value="b">500 gm</option>
+                                <option value="c">1 kg</option>
+                                <option value="d">1haf kg</option>
+                                <option value="e">2 kg</option>
+                                <option value="f">3 kg</option>
+                                <option value="g">4 kg</option>
+                                <option value="h">5 Kg</option>
+                                <option value="i">6 kg</option>
+                            </select>
+                        </fieldset>
+                    </td>
+                        <td>
+                            <fieldset>
+                                <legend style="font-size:20px;">Message</legend>
+                                <input style="font-size:20px;width:300px;border:0px;outline:0px;" placeholder="Message" maxlength="20" type="text">
+                            </fieldset>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                            <fieldset>
+                                <legend style="font-size:20px;">Add on</legend>
+                                <input type="checkbox" style="font-size:20px;">&nbsp;&nbsp;
+                                <label style="font-size:20px;">Candals </label>
+                                <input type="checkbox" style="font-size:25px;">
+                                <label style="font-size:20px;">Birthday Blast</label>&nbsp;&nbsp;
+                                <input type="checkbox" style="font-size:25px;">
+                                <label style="font-size:20px;">Flowers</label>&nbsp;&nbsp;
+                                <input type="checkbox" style="font-size:25px;">
+                                <label style="font-size:20px;">Choclets</label>&nbsp;&nbsp;
+                                <input type="checkbox" style="font-size:25px;">
+                                <label style="font-size:20px;">Stickers</label>&nbsp;&nbsp;
+                            </fieldset>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                            <fieldset>
+                                <legend>Adress</legend>
+                                <label style="font-size: 20px;">Enter Platno</label>&nbsp;
+                                <label>:</label>
+                                <input  required style="font-size: 40px;"> <br><br>
+                                <label style="font-size: 20px;">Enter Area</label>&nbsp;&nbsp;&nbsp;
+                                <label>:</label>
+                                <input  required  style="font-size: 40px;"><br><br>
+                                <label style="font-size: 20px;">Enter City</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label>:</label>
+                                <input  required placeholder="City" list="City"  style="font-size: 40px;">
+                                <datalist id="City">
+                                    <option>Hyderabad</option>
+                                    <option>Mumbai</option>
+                                    <option>New Delhi</option>
+                                    <option>Vijayawada</option>
+                                </datalist>
+                                
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend style="font-size:20px;">Select time Of Delivery</legend>
+                                <input type="time" style="width: 300px;font-size:20px;" placeholder="Time">
+                            </fieldset>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                      <label style="font-size: 40px;">Select Payment</label>
+                    </td>
+                    <td>
+                      <input type="radio"style="width: 20px;height:20px;" name="online"><label style="font-size: 30px;">Online</label>
+                    </td>
+                    <td>
+                        <input type="radio"style="width: 20px;height:20px;" name="Offline"><label style="font-size: 30px;">Offline</label>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" style="font-size:40px;"></td>
+                        <td><input type="Reset"value="Clear" style="font-size:40px;"></td>
+                    </tr>
+                   
+            </table>
+        </form>
+    </fieldset>
+</center>
+</body>
+</html>
